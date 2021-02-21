@@ -89,7 +89,7 @@
     .login{
         padding:0 5%;
         width:100%;
-        background: url('../../../static/bjNew.jpg');
+        background: url('../../../static/bgNewv2.jpg');
         background-size: 100% 100%;
         padding:30% 0 0 0;
         .logo{

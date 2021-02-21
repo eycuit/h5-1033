@@ -259,7 +259,7 @@ export default {
     }
 }
 .boxBody {
-    background: url("../../../static/bjNew.jpg");
+    background: url("../../../static/bgNewv2.jpg");
     background-size: 100% 100%;
     position: fixed;
     width: 100%;
