@@ -119,9 +119,7 @@
             <div @click="login" class="left">
                 已有账号？ <span style="color: #ff6363">去登录</span>
             </div>
-            <!--
-        <div @click="appDown" class="right">下载APP</div> 
-      -->
+            <div @click="appDown" class="right">下载APP</div>
         </div>
     </div>
 </template>
