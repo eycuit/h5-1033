@@ -9,7 +9,7 @@ if (process.env.NODE_ENV == "development") {
     axios.defaults.baseURL = 'http://api.1033.com/v1';
 } else {
     // axios.defaults.baseURL = 'https://api.grandsanhedrin.com/v1';
-    axios.defaults.baseURL = 'https://api.metro234.com/v1';
+    axios.defaults.baseURL = 'https://api.dgh666.xyz/v1';
 }
 
 //设置请求拦截器
