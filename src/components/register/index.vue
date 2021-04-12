@@ -119,7 +119,7 @@
             <div @click="login" class="left">
                 已有账号？ <span style="color: #ff6363">去登录</span>
             </div>
-            <div @click="appDown" class="right">下载APP</div>
+            <!-- <div @click="appDown" class="right">下载APP</div> -->
         </div>
     </div>
 </template>
@@ -223,7 +223,7 @@ export default {
             register({ ...data }).then((res) => {
                 if (res.status == 0) {
                     this.$notify({ type: "success", message: res.message });
-                    this.$router.push({ path: "/login" });
+                    this.appDown();
                     return true;
                 }
                 this.$notify({ type: "danger", message: res.message });
